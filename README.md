@@ -1,4 +1,6 @@
 # Konsolenanwendung mit PyQt5
+![image](https://github.com/RalfKruemmel-codes/PythonWrapper/assets/46448421/002a022f-7520-4711-959b-d7d78b0a4b27)
+
 
 Diese Python-Anwendung bietet eine grafische Benutzeroberfläche (GUI), die es Benutzern ermöglicht, Python-Code zu schreiben, auszuführen und eine ausführbare Datei (.exe) aus dem Code zu erstellen.
 
