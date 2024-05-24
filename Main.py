@@ -5,7 +5,8 @@ from PyQt5.QtWidgets import QApplication, QMainWindow, QTextEdit, QVBoxLayout, Q
 from PyQt5.QtCore import QProcess, Qt
 from Layout import CustomPalette
 
-sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf8')
+if sys.stdout and hasattr(sys.stdout, 'buffer'):
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf8')
 
 class Console(QMainWindow):
     def __init__(self):
